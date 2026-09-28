@@ -1,0 +1,34 @@
+# Runtime configuration and credentials
+**/mysql-client.ini
+**/mysql-admin.ini
+**/scada-client.ini
+**/config.json
+**/scada-source.json
+**/web-config.json
+**/mode.json
+.env
+.env.*
+# Data and generated outputs
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.log.*
+*.pid
+*.lock
+*.stop
+*.sqlite3*
+*.pdf
+**/reports/
+**/mysql-data/
+**/mysql-server/
+**/heartbeat.json
+**/heartbeat.tmp
+**/node_inventory.json
+**/scada-sync-status.json
+*.tmp
+# Local tooling
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

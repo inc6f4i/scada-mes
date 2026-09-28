@@ -1,0 +1,12 @@
+{
+  "bind_addresses": [
+    "127.0.0.1"
+  ],
+  "allowed_clients": [
+    "127.0.0.1"
+  ],
+  "allowed_origins": [
+    "http://127.0.0.1:8765",
+    "http://localhost:8765"
+  ]
+}
